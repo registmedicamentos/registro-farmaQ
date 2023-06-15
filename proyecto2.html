@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proyecto.css">
+<body>
+    <div class="container">
+    </div>
+</header>
+<section id="hero">
+    <h1>Todo tipo de medicina<br>Solo aqui</h1>
+    <h3>Bienvenido al sistema de registro de medicina</h3>
+    <form action="proyecto.php" method="post" class="form-register">
+        <div class="casillas">
+            <h4>Registre el tipo de medicina</h4>
+            <input type="button" name="busqueda" value="Registrar medicamento" onclick="registro()">
+            <script>
+                function registro(){
+                window.location.href="proyecto.html";
+                }
+            </script>
+        </div>
+    </form>
+</section>
+
+
+    <section>
+        <section>
+        <section id="info">
+            <div class="container">
+                <h2>Más sobre medicamentos</h2>
+                <div class="carta2">
+                    <div class="carta">
+                        <h3>Antibióticos</h3>
+                        <center><p>Un antibiótico es un medicamento que combaten infecciones causadas por bacterias en los seres humanos y los animales ya sea matando las bacterias o dificultando su crecimiento y multiplicación.</p></center>
+                        <input type="button" value="Mas información" onclick="info()">
+                        <script>
+                            function info(){
+                           window.location.href="boton1.html";
+                        }
+                        </script>
+                    </div>
+                    <div class="carta">
+                        <h3>Analgésicos</h3>
+                        <p>Los analgésicos son medicinas que reducen o alivian los dolores de cabeza, musculares, artríticos o muchos otros achaques y dolores. Existen muchos tipos diferentes de analgésicos y cada uno tiene sus ventajas y riesgos. Algunos tipos de dolor responden mejor a determinadas medicinas que a otras.</p>
+                        <input type="button" value="Más información" onclick="info1()">
+                        <script>
+                            function info1(){
+                            window.location.href="boton2.html";
+                            }
+                        </script>
+                    </div>
+                    <div class="carta">
+                        <h3>Tranquilizantes</h3>
+                        <p>Los medicamentos tranquilizantes son aquellos que calman y sosiega, y reduce el estres y la tensión. Son ocupados para tratar la ansiedad y el insomnio</p>
+                        <input type="button" value="Más información" onclick="info2()" >
+                        <script>
+                            function info2(){
+                            window.location.href="boton3.html";
+                            }
+                        </script>
+                    </div>  
+            </div>
+        </section>
+    </section>
+</section>
+</body>
+</html>
